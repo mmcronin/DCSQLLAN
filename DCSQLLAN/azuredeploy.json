@@ -269,14 +269,11 @@
           "adNicIPAddress": {
             "value": "[parameters('adNicIPAddress')]"
           },
-          "adSubnetRef": {
+          "VMSubnetRef": {
             "value": "[variables('VMSubnetRef')]"
           },
           "sqlNicName": {
             "value": "[variables('sqlNicName')]"
-          },
-          "sqlSubnetRef": {
-            "value": "[variables('VMSubnetRef')]"
           }
         }
       }
