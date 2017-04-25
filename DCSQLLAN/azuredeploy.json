@@ -104,7 +104,7 @@
         "artifactsBaseUrl": "",
         "description": "URL to acquire other templates"
       },
-      "defaultValue": "https://raw.githubusercontent.com/mmcronin/DCSQLLAN/tree/master/DCSQLLAN"
+      "defaultValue": "https://raw.githubusercontent.com/mmcronin/DCSQLLAN/master/DCSQLLAN"
     },
     "storageAccountNamePrefix": {
       "type": "string",
