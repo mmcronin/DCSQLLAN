@@ -277,6 +277,7 @@
             "value": "[variables('VMSubnetRef')]"
           }
         }
+      }
       },
     {
       "name": "ProvisioningADDomainController",
