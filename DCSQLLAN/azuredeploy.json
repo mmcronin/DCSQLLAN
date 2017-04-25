@@ -165,8 +165,10 @@
     "vnetwithDNSTemplateUrl": "[concat(parameters('baseUrl'),'/vnet-with-dns-server.json')]",
     "vnetSetupURL": "[concat(parameters('baseUrl'),'/vnet-new.json')]",
     "creatingNICSUrl": "[concat(parameters('baseUrl'),'/creatingNICS.json')]",
-    "ProvisioningADDomainControllerUrl": "[concat(parameters('baseUrl'),'/provisioningDomainController.json')]"
-     },
+    "ProvisioningADDomainControllerUrl": "[concat(parameters('baseUrl'),'/provisioningDomainController.json')]",
+    "ProvisioningSQLUrl": "[concat(parameters('baseUrl'),'/provisioningSQL.json')]",
+    "configuringSQLUrl": "[concat(parameters('baseUrl'),'/configuringSQL.json')]"
+  },
   "resources": [
     {
       "name": "SettingUpStorageAccount",
