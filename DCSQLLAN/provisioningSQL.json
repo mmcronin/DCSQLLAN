@@ -57,8 +57,8 @@
         "storageProfile": {
           "imageReference": {
             "publisher": "MicrosoftSQLServer",
-            "offer": "SQL2014-WS2012R2",
-            "sku": "Enterprise",
+            "offer": "SQL2016SP1-WS2016",
+            "sku": "SQLDEV",
             "version": "latest"
           },
           "osDisk": {
