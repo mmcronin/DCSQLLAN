@@ -11,13 +11,16 @@
     "adNicIPAddress": {
       "type": "string"
     },
+    "sqlNicIPAddress": {
+      "type": "string"
+    },
     "VMSubnetRef": {
       "type": "string"
     },
     "sqlNicName": {
       "type": "string"
     }
-    },
+  },
   "resources": [
     {
       "name": "[parameters('adNicName')]",
@@ -49,7 +52,8 @@
           {
             "name": "ipconfig1",
             "properties": {
-              "privateIPAllocationMethod": "Dynamic",
+              "privateIPAllocationMethod": "Static",
+              "privateIPAddress": "[parameters('sqlNicIPAddress')]",
               "subnet": {
                 "id": "[parameters('VMSubnetRef')]"
               }
